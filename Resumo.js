@@ -1,4 +1,5 @@
 // console.log('bem vindo ao curso');
+
 // console.log('se vc achou isso, vc eh programador');
 // padrão: camelCase
 // let posso alterar o valor, mas const eh contante entt não pode fazer alteração
