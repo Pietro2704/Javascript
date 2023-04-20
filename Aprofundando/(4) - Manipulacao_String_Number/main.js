@@ -19,4 +19,3 @@
     document.write(`Seu PC custou: R$ ` +preco)
     
     // NODE -> //preco = preco.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) // R$ 8.500,90
-    
