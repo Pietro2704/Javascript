@@ -7,13 +7,19 @@
 // *, /, %; 
 // +, -;
 
-var num1 = 5
-var num2 = 2
-var mum3 = 3
+var x = 5
+var y = 2
 
-alert(`Adição: ${num1} + ${num2} = ${num1+num2}`)
-alert(`Subtração: ${num1} - ${num2} = ${num1-num2}`)
-alert(`Divisão: ${num1} / ${num2} = ${num1/num2}`)
-alert(`Resto da divisão inteira: ${num1} % ${num2} = ${num1%num2}`)
-alert(`Multiplicação: ${num1} * ${num2} = ${num1*num2}`)
-alert(`Exponenciação: ${num1} ** ${num2} = ${num1**num2}`)
+// alert(`Adição: ${x} + ${y} = ${x+y}`)
+// alert(`Subtração: ${x} - ${y} = ${x-y}`)
+// alert(`Divisão: ${x} / ${y} = ${x/y}`)
+// alert(`Resto da divisão inteira: ${x} % ${y} = ${x%y}`)
+// alert(`Multiplicação: ${x} * ${y} = ${x*y}`)
+// alert(`Exponenciação: ${x} ** ${y} = ${x**y}`)
+
+//  --------------------------------------------------------------------------------------------------
+
+
+// Atribuição:
+
+alert(`X valia ${x}, mas agora vale ${x += x} `)
