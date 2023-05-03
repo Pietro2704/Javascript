@@ -54,3 +54,10 @@ var Y = '2'
 // alert(`Será que ${x} é igual à ${X}, e ${y} é igual à ${Y}? ${x == X && y == Y}`)  // AND
 // alert(`Será que ${x} é igual à ${y}, ou ${y} é igual à ${Y}? ${x == X || y == Y}`) // OR
 // alert(`Será que ${x} é igual à ${y}? ${!(x == y)}`)                                // NOT
+
+//  --------------------------------------------------------------------------------------------------
+
+
+// Ternário:
+
+// alert(`${X == y ? "SIM" : "NÃO"}`)
