@@ -5,7 +5,7 @@ Exemplo:
 - mouseMove: mouse se mexendo
 - mouseDown: Segura o click
 - mouseUp: Solta o click
-- click: Da aperta e solta rapidão
+- click: Aperta e solta rapidão
 - mouseOut: mouse sai de algo
 */
 
