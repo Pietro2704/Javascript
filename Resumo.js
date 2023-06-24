@@ -1,3 +1,5 @@
+/*
+
 // console.log('bem vindo ao curso');
 
 // console.log('se vc achou isso, vc eh programador');
@@ -84,3 +86,7 @@ console.log(idadeIrmao)
 console.log(++idadeIrmao)
 console.log(idadeIrmao++)
 console.log(idadeIrmao)
+
+*/
+
+
