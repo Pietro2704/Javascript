@@ -32,3 +32,8 @@ button{
 #msg{
   text-align: center;
 }
+
+footer>p{
+  text-align: center;
+  color: white;
+}
