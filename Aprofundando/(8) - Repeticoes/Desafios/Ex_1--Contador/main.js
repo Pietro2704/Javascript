@@ -5,42 +5,42 @@ function Verificar(){
   var msg = document.querySelector("#msg");
   var acontece = document.querySelector("#acontece");
   
-  var inicio = parseInt(document.querySelector("#inicio").value);
-  var fim = parseInt(document.querySelector("#fim").value);
-  var pule = parseInt(document.querySelector("#pular").value);
+  var inicio = document.querySelector("#inicio").value;
+  var fim = document.querySelector("#fim").value;
+  var pule = document.querySelector("#pular").value;
   
-  if(isNaN(inicio) || isNaN(fim) || isNaN(pule)){
+  if(inicio.length == 0 || fim.length == 0){
     alert("[ERRO] Verifique os dados e tente novamente");
+
   }else{
 
-    msg.innerHTML = `Contando...`;
-    
-    acontece.innerHTML = "";
-    for(var i = inicio; i<=fim; i+=pule){
-      acontece.innerHTML += `${i}&copy;<br>`;
+    if(pule.length == 0){
+      pule = 1;
     }
-    acontece.innerHTML += `FIM`;
-  
-   /*
-   acontece.innerHTML = "";
-    var i = inicio;
-    while(i<=fim){
-      acontece.innerHTML += `${i}&copy;<br>`;
-      i+=pule;
-    }
-    acontece.innerHTML += `FIM`;
-    */
-  
-    /*
-    acontece.innerHTML = "";
-    var i = inicio;
-    do{
-      acontece.innerHTML += `${i}&copy;<br>`;
-      i+=pule;
-    }while(i<=fim);
-    acontece.innerHTML += `FIM`;
-    */
 
+    pule = Number(pule);
+    inicio = Number(inicio);
+    fim = Number(fim);
+
+    acontece.innerHTML = "";
+    msg.innerHTML = `Contando...`;
+
+    if(inicio<fim){
+
+      for(var i = inicio; i<=fim; i+=pule){
+        acontece.innerHTML += `${i}\t\u{1F449}`;
+      }acontece.innerHTML += `\u{1F3c1}`;
+
+    }
+    else if(inicio>fim){
+
+      for(var i = inicio; i>=fim; i-=pule){
+        acontece.innerHTML += `${i}\u{1F449}\t`;
+      }acontece.innerHTML += `\u{1F3c1}`;
+    }
+    else{
+      msg.innerHTML = ``;
+      alert("O início e o fim não podem ser os mesmos números");
+    }
   }
-  
 }
