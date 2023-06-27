@@ -18,6 +18,24 @@ main {
 
   margin: 0 auto;
 }
+input[type="button"] {
+  background-color: DodgerBlue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+  background-color: RoyalBlue;
+}
+
+#msg{
+  text-align: center;
+}
 footer{
   text-align: center;
   color: white;

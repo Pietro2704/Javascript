@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <header>
-    <h1>TÍtulo</h1>
-  </header>
-  <main>
-
-    <div>
-
-    </div>
-
-    <div>
-
-    </div>
-  </main>
-  <footer>
-    <p>&copy; Pietro Rosolia</p>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>TÍtulo</h1>
+    </header>
+    <main>
+      <section>
+        <p>
+          <label for="inicio">Início:</label>
+          <input type="number" name="inicio" id="inicio" />
+        </p>
+      </section>
+      <section>
+        <p>
+          <label for="pular">Pule:</label>
+          <input type="number" name="pular" id="pular" />
+        </p>
+      </section>
+      <section>
+        <p>
+          <label for="fim">Fim:</label>
+          <input type="number" name="fim" id="fim">
+        </p>
+      </section>
+      <section>
+        <p>
+          <input type="button" value="Enviar" name="enviar" id="enviar">
+        </p>
+      </section>
+      <section id="res">
+        <div id="msg"></div>
+        <div id="acontece"></div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Pietro Rosolia</p>
+    </footer>
+  </body>
 </html>
