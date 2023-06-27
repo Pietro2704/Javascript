@@ -10,8 +10,8 @@ function Verificar(){
   var pule = document.querySelector("#pular").value;
   
   if(inicio.length == 0 || fim.length == 0){
+    msg.innerHTML = "Impossível contar..."
     alert("[ERRO] Verifique os dados e tente novamente");
-
   }else{
 
     if(pule.length == 0){
